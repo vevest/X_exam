@@ -65,6 +65,7 @@ def categorize_input(lan="english"):
     if re.match(REGEX_USER_USERNAME,user_input): 
         return validate_username_input(user_input, lan)
 
+
 def validate_user_email_input(email, lan="english"):
     if lan not in allowed_languages:
         lan = "english"
@@ -72,6 +73,7 @@ def validate_user_email_input(email, lan="english"):
     if not re.match(REGEX_EMAIL, email):
         raise Exception(lans("invalid_credentials"), 400)
     return email
+
 
 def validate_username_input(username, lan="english"):
     if lan not in allowed_languages:
@@ -133,7 +135,6 @@ def validate_user_password(lan = "english"):
 
 
 
-
 ##############################
 def validate_user_password_confirm():
     user_password = request.form.get("user_password_confirm", "").strip()
@@ -172,12 +173,7 @@ def validate_post(post = ""):
 ##############################
 def send_email(to_email, subject, template):
     try:
-        # Create a gmail fullflaskdemomail
-        # Enable (turn on) 2 step verification/factor in the google account manager
-        # Visit: https://myaccount.google.com/apppasswords
-        # Copy the key : pdru ctfd jdhk xxci
-
-        # Email and password of the sender's Gmail account
+       
         sender_email = "Vvevest@gmail.com"
         password = "sayq hyqz sppy mhiv" 
 
@@ -204,7 +200,7 @@ def send_email(to_email, subject, template):
        
     except Exception as ex:
         ic(ex)
-        raise Exception("cannot send email", 500)
+        raise Exception("Cannot send email", 500)
     finally:
         pass
 
@@ -212,3 +208,5 @@ def lans(key):
     with open("dictionary.json", 'r', encoding='utf-8') as file:
         data = json.load(file)
     return data[key][default_language]
+
+

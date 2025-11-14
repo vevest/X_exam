@@ -150,6 +150,7 @@
         "spanish": "a quien seguir"
     },
     "show_more": {
+<<<<<<< HEAD
         "english": "Show more",
         "danish": "Vis mere",
         "spanish": "mostrar más"
@@ -158,5 +159,10 @@
         "english": "Search X",
         "danish": "Søg X",
         "spanish": "buscar X"
+=======
+        "english": "",
+        "danish": "",
+        "spanish": ""
+>>>>>>> 6d025466468dfae8134dfd32412c84bc2cb0df43
     }
 }
