@@ -198,7 +198,7 @@ def home():
         
         lan = session["user"]["user_language"]
 
-        return render_template("home.html", tweets=tweets, trends=trends, suggestions=suggestions, user=user, lan=lan, dictionary=dictionary)
+        return render_template("home.html", tweets=tweets, trends=trends, suggestions=suggestions, user=user, lan=lan)
     except Exception as ex:
         ic(ex)
         return "error"

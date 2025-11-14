@@ -1,43 +1,23 @@
 {
-    "login": {
-        "english": "Log in",
-        "danish": "Log ind",
-        "spanish": "Entrar"
+    "": {
+        "english": "",
+        "danish": "",
+        "spanish": ""
+    },
+    "user_not_verified": {
+        "english": "User not verified",
+        "danish": "Bruger ikke verificeret",
+        "spanish": "Usuario no verificado"
     },
     "dont_have_an_account": {
         "english": "Don't have an account",
         "danish": "Har du ikke en konto",
         "spanish": "No tienes cuenta"
     },
-    "have_an_account": {
-        "english": "Already have an account",
-        "danish": "Har du en konto",
-        "spanish": "Tienes cuenta"
-    },
-    "email": {
-        "english": "E-mail",
-        "danish": "E-mail",
-        "spanish": "Correo electrónico"
-    },
-    "password": {
-        "english": "Password",
-        "danish": "Adgangskode",
-        "spanish": "Cláve"
-    },
-    "username": {
-        "english": "Username",
-        "danish": "Brugernavn",
-        "spanish": "Nombre de usuario"
-    },
-    "first_name": {
-        "english": "First name",
-        "danish": "Fornavn",
-        "spanish": "Primer nombre"
-    },
-    "invalid_credentials": {
-        "english": "Invalid credentials",
-        "danish": "Ugyldige loginoplysninger",
-        "spanish": "Credenciales no válidas"
+    "user_not_found": {
+        "english": "User not found",
+        "danish": "Bruger ikke fundet",
+        "spanish": "Usuario no encontrado"
     },
     "or": {
         "english": "or",
@@ -49,39 +29,99 @@
         "danish": "tegn",
         "spanish": "characteres"
     },
-    "sign_up": {
-        "english": "Sign up",
-        "danish": "Tilmeld dig",
-        "spanish": "Inscribirse"
-    },
     "to": {
         "english": "to",
         "danish": "til",
         "spanish": "a"
     },
-    "exception": {
-        "english": "exception",
-        "danish": "undtagelse",
-        "spanish": "excepción"
+    "first_name": {
+        "english": "First name",
+        "danish": "Fornavn",
+        "spanish": "Primer nombre"
     },
-    "without": {
-        "english": "without",
-        "danish": "uden",
-        "spanish": "si"
+    "have_an_account": {
+        "english": "Already have an account",
+        "danish": "Har du en konto",
+        "spanish": "Tienes cuenta"
     },
-    "dashes": {
-        "english": "dashes",
-        "danish": "bindestreg ",
-        "spanish": "guiones"
+    "invalid_credentials": {
+        "english": "Invalid credentials",
+        "danish": "Ugyldige loginoplysninger",
+        "spanish": "Credenciales no válidas"
     },
-    "user_not_found": {
-        "english": "User not found",
-        "danish": "Bruger ikke fundet",
-        "spanish": "Usuario no encontrado"
+    "email": {
+        "english": "E-mail",
+        "danish": "E-mail",
+        "spanish": "Correo electrónico"
     },
-    "user_not_verified": {
-        "english": "User not verified",
-        "danish": "Bruger ikke verificeret",
-        "spanish": "Usuario no verificado"
+    "sign_up": {
+        "english": "Sign up",
+        "danish": "Tilmeld dig",
+        "spanish": "Inscribirse"
+    },
+    "password": {
+        "english": "Password",
+        "danish": "Adgangskode",
+        "spanish": "Cláve"
+    },
+    "username": {
+        "english": "Username",
+        "danish": "Brugernavn",
+        "spanish": "Nombre de usuario"
+    },
+    "login": {
+        "english": "Log in",
+        "danish": "Log ind",
+        "spanish": "Entrar"
+    },
+    "home": {
+        "english": "Home",
+        "danish": "Hjem",
+        "spanish": "Casa"
+    },
+    "explore": {
+        "english": "Explore",
+        "danish": "Udforske",
+        "spanish": "Explorar"
+    },
+    "notifications": {
+        "english": "Notifications",
+        "danish": "Notifikationer",
+        "spanish": "Notificación"
+    },
+    "message": {
+        "english": "Beskeder",
+        "danish": "Beskeder",
+        "spanish": "Mensaje"
+    },
+    "bookmarks": {
+        "english": "Bookmarks",
+        "danish": "Bogmærker",
+        "spanish": "Marcadores"
+    },
+    "jobs": {
+        "english": "Jobs",
+        "danish": "Arbejde",
+        "spanish": "Empleos"
+    },
+    "communities": {
+        "english": "Communities",
+        "danish": "Fællesskab",
+        "spanish": "Comunidades"
+    },
+    "premium": {
+        "english": "Premium",
+        "danish": "Premium",
+        "spanish": "De primera calidad"
+    },
+    "profile": {
+        "english": "Profile",
+        "danish": "Profil",
+        "spanish": "Perfil"
+    },
+    "more": {
+        "english": "More",
+        "danish": "Mere",
+        "spanish": "Más"
     }
 }
