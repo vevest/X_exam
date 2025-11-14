@@ -73,5 +73,55 @@
         "english": "Log in",
         "danish": "Log ind",
         "spanish": "Entrar"
+    },
+    "home": {
+        "english": "Home",
+        "danish": "Hjem",
+        "spanish": "Casa"
+    },
+    "explore": {
+        "english": "Explore",
+        "danish": "Udforske",
+        "spanish": "Explorar"
+    },
+    "notifications": {
+        "english": "Notifications",
+        "danish": "Notifikationer",
+        "spanish": "Notificación"
+    },
+    "message": {
+        "english": "Beskeder",
+        "danish": "Beskeder",
+        "spanish": "Mensaje"
+    },
+    "bookmarks": {
+        "english": "Bookmarks",
+        "danish": "Bogmærker",
+        "spanish": "Marcadores"
+    },
+    "jobs": {
+        "english": "Jobs",
+        "danish": "Arbejde",
+        "spanish": "Empleos"
+    },
+    "communities": {
+        "english": "Communities",
+        "danish": "Fællesskab",
+        "spanish": "Comunidades"
+    },
+    "premium": {
+        "english": "Premium",
+        "danish": "Premium",
+        "spanish": "De primera calidad"
+    },
+    "profile": {
+        "english": "Profile",
+        "danish": "Profil",
+        "spanish": "Perfil"
+    },
+    "more": {
+        "english": "More",
+        "danish": "Mere",
+        "spanish": "Más"
     }
 }

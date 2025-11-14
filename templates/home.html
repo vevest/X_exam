@@ -41,9 +41,9 @@
                 </li>
 
 
-                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i><span>{{ dictionary.explore[lan] }}</span></a></li>
-                <li><a href="#"><i class="fa-regular fa-bell"></i><span>{{ dictionary.notifications[lan] }}</span></a></li>
-                <li><a href="#"><i class="fa-regular fa-envelope"></i><span>{{ dictionary.messages[lan] }}</span></a></li>
+                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i><span>{{ x.lans("explore") }}</span></a></li>
+                <li><a href="#"><i class="fa-regular fa-bell"></i><span>{{ x.lans("notifications") }}</span></a></li>
+                <li><a href="#"><i class="fa-regular fa-envelope"></i><span>{{ x.lans("message") }}</span></a></li>
                 <li><a href="#"><i class="fa-solid fa-atom"></i><span>Grok</span></a></li>
                 <li><a href="#"><i class="fa-regular fa-bookmark"></i><span>{{ dictionary.bookmarks[lan] }}</span></a></li>
                 <li><a href="#"><i class="fa-solid fa-briefcase"></i><span>{{ dictionary.jobs[lan] }}</span></a></li>
@@ -60,8 +60,6 @@
                 <li><a href="#"><i class="fa-solid fa-ellipsis"></i><span>{{ dictionary.more[lan] }}</span></a></li>
                 <li><a href="{{ url_for('logout') }}"><i class="fa-solid fa-right-from-bracket"></i><span>{{ dictionary.logout[lan] }}</span></a></li>
             </ul>
-
-            <button class="post-btn">Post</button>
 
             <div id="profile_tag">
                 <img src="{{ url_for('static', filename='images/avatar_1.jpg') }}" alt="Profile">
