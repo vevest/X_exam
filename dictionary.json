@@ -86,7 +86,7 @@
     },
     "notifications": {
         "english": "Notifications",
-        "danish": "Notifikationer",
+        "danish": "Meddelelser",
         "spanish": "Notificación"
     },
     "message": {
@@ -123,5 +123,40 @@
         "english": "More",
         "danish": "Mere",
         "spanish": "Más"
+    },
+    "logout": {
+        "english": "Logout",
+        "danish": "Log ud",
+        "spanish": "cerrar sesión"
+    },
+    "search": {
+        "english": "Search",
+        "danish": "Søg",
+        "spanish": "Buscar"
+    },
+    "happening_now": {
+        "english": "What's happening now",
+        "danish": "Hvad sker der nu?",
+        "spanish": "¿Qué está pasando ahora?"
+    },
+    "more_news": {
+        "english": "More news",
+        "danish": "Flere nyheder",
+        "spanish": "más noticias"
+    },
+    "who_to_follow": {
+        "english": "Who to follow",
+        "danish": "Hvem man skal følge",
+        "spanish": "a quien seguir"
+    },
+    "show_more": {
+        "english": "Show more",
+        "danish": "Vis mere",
+        "spanish": "mostrar más"
+    },
+    "search_x": {
+        "english": "Search X",
+        "danish": "Søg X",
+        "spanish": "buscar X"
     }
 }
