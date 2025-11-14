@@ -9,6 +9,9 @@ import os
 import dictionary
 import requests
 import io, csv, json
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 
 from icecream import ic
 ic.configureOutput(prefix=f'----- | ', includeContext=True)
@@ -436,6 +439,8 @@ def api_update_profile():
 
 
 ##############################
+
+
 @app.post("/api-search")
 def api_search():
     try:
@@ -503,5 +508,30 @@ def get_data_from_sheet():
     except Exception as ex:
         ic(ex)
         return str(ex)
+    finally:
+        pass
+
+
+##############################
+def send_verify_email(to_email, user_verification_key):
+    try:
+        # Dynamisk link
+        verify_link = f"http://127.0.0.1/verify/{user_verification_key}"
+
+        html_content = render_template("_email_verify_account.html", user_verification_key=verify_link)
+
+        # Send mail
+        result = x.send_email(
+            to_email=to_email,
+            subject="Please verify your account",
+            template=html_content
+        )
+        print("Email sent successfully!")
+
+        return "email sent"
+       
+    except Exception as ex:
+        ic(ex)
+        raise Exception("Cannot send email", 500)
     finally:
         pass
