@@ -126,9 +126,9 @@ def signup(lan = "english"):
             user_password = x.validate_user_password(lan)
             user_username = x.validate_user_username(lan)
             user_first_name = x.validate_user_first_name(lan)
+            user_last_name = x.validate_user_last_name(lan)
 
             user_pk = uuid.uuid4().hex
-            user_last_name = ""
             user_avatar_path = "https://avatar.iran.liara.run/public/40"
             user_verification_key = uuid.uuid4().hex
             user_verified_at = 0
@@ -143,9 +143,7 @@ def signup(lan = "english"):
             db.commit()
 
             # send verification email
-            email_verify_account = render_template("_email_verify_account.html", user_verification_key=user_verification_key)
-            ic(email_verify_account)
-            x.send_email(user_email, "Verify your account", email_verify_account)
+            send_verify_email(user_email, user_verification_key)
 
             return f"""<mixhtml mix-redirect="{ url_for('login') }"></mixhtml>""", 400
         except Exception as ex:
